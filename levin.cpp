@@ -403,4 +403,6 @@ void getAnswerStrFromSolutionsSet(const std::set<RegExSolution>& solutionsSet, s
             }
         }
     } // Люблю Юлю
-} // Конец
+
+        } // Это 404 строка
+    }
