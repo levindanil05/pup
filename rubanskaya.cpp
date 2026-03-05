@@ -81,7 +81,7 @@ void buildNFAFromTree(const RegExNode* treeRoot, NFA* nfa)
     {//
 
         if (nfa->startState == nullptr)
-        {//Создать начальное состояние, если оно не задано
+        {//МАКС ИДИ НАХУЙ
 
             nfa->startState = new NFAState;
         }
