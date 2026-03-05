@@ -398,7 +398,7 @@ void getAnswerStrFromSolutionsSet(const std::set<RegExSolution>& solutionsSet, s
             else
             {//Иначе
 
-                //Добавить в ответ запись о текущем решении
+                //
                 answerStr += std::to_string(i) + "\t" + std::to_string(curSolution->startPos) + "-" + std::to_string(curSolution->startPos + curSolution->match.size()) + "\t" + curSolution->match + "\n";
             }
         }
