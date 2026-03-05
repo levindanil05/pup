@@ -402,5 +402,5 @@ void getAnswerStrFromSolutionsSet(const std::set<RegExSolution>& solutionsSet, s
                 answerStr += std::to_string(i) + "\t" + std::to_string(curSolution->startPos) + "-" + std::to_string(curSolution->startPos + curSolution->match.size()) + "\t" + curSolution->match + "\n";
             }
         }
-    }
+    } // Люблю Юлю
 } // Конец
