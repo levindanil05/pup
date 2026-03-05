@@ -403,4 +403,4 @@ void getAnswerStrFromSolutionsSet(const std::set<RegExSolution>& solutionsSet, s
             }
         }
     }
-}
+} // Конец
